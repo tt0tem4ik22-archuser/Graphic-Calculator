@@ -1,27 +1,50 @@
 # Graphic Calculator
 
+
 ## Установка
 
 ### Windows
 ```bash
 git clone https://github.com/tt0tem4ik22-archuser/Graphic-Calculator
 pip install -r requirements.txt
+cd Graphic-Calculator
+```
+
+### Linux | MacOS
+```bash
+git clone https://github.com/tt0tem4ik22-archuser/Graphic-Calculator
+python3 -m pip install -r requirements.txt
+cd Graphic-Calculator
+```
+
+
+## Создание виртуальной среды проекта (опционально)
+
+### Windows
+```bash
+python -m venv .venv
+.venv\Scripts\activate.bat
+```
+
+### Linux | MacOS
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+## Запуск программы
+
+### Windows
+```bash
 python main.py
 ```
 
-### Linux
+### Linux | MacOS
 ```bash
-git clone https://github.com/tt0tem4ik22-archuser/Graphic-Calculator
-python3 -m pip install -r requirements.txt
 python3 main.py
 ```
 
-### MacOS
-```bash
-git clone https://github.com/tt0tem4ik22-archuser/Graphic-Calculator
-python3 -m pip install -r requirements.txt
-python3 main.py
-```
+
 ## Использование
 
 * Сначала программа получает количество уравнений в системе уравнений
