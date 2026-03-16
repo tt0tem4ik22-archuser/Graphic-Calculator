@@ -4,7 +4,7 @@
 
 ### Windows
 ```bash
-goit clone https://github.com/tt0tem4ik22-archuser/Graphic-Calculator
+git clone https://github.com/tt0tem4ik22-archuser/Graphic-Calculator
 pip install -r requirements.txt
 python main.py
 ```
